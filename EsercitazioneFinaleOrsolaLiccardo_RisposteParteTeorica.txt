@@ -1,0 +1,39 @@
+1)Ogni volta che un utente chiama OPEN() su una connessione, il 
+pooler cerca una connessione disponibile nel pool
+• Se è disponibile una connessione in pool, la restituisce al chiamante 
+invece di aprire una nuova connessione.
+• Quando l'applicazione chiama CLOSE() sulla connessione, il pooler la 
+restituisce al set di connessioni attive in pool anziché chiuderlo
+• Una volta che la connessione viene restituita al pool, è pronta per 
+essere riutilizzata alla successiva chiamata Open.
+
+2)La connection string è una stringa che fornisce i parametri di inizializzazione per creare una connessione 
+  La connection string è composta da valori in formato chiave-valore 
+
+3)Ado.Net permette la connessione attraverso due modalità:
+Connected Mode:fornisce accesso di sola lettura ai dati nell'originedati e da la possibilità di eseguire comandi sull'origine dei dati
+Disconnected Mode:permette di manipolare i dati recuperati dall'origine dei dati e successivamente di riconciliarli con l'origine.
+
+4)Il Data Adapter fornisce il ponte tra il Dataset el'origine dati.
+ Utlizza oggetti Command per eseguire comandi SQL sull'origine dati per caricare sia DataSet con dati sia per riconciliare le modifiche apportate ai dati nel DataSet con l'origine dati.
+La classe DataAdapter permette di collegare l'origine dati e le classi disconnesse tramite le classi connesse.
+
+5)Ienumerable<string> filteredList=person.Where(name=> name.StartsWith(""));
+
+public static void LambdaSyntax()
+            {
+                var persona = GetPersona();
+
+
+                Persona con Nome, Cognome, Età scrivere una query Linq con query syntax e lambda expression che prelevi le persone maggiorenni ordinate per cognome e per nome 
+                var personaOver18 = persona.Where(x => x.eta >= 18);
+                //  .Select(x => x.eta);
+                foreach (var item in personaOver18)
+                {
+                    Console.WriteLine($"{item.Id}-{item.Stato}-{item.Data}");
+
+                }
+
+6)In un ambiente con più utenti sono disponibili due modelli per l'aggiornamento dei dati in un database: la concorrenza ottimistica e pessimistica.
+Concorrenza ottimistica:considera la presenza di una violazione nel caso in cui, dopo che un utente riceve un valore dal database, tale valore viene modificato da un altro utente prima che il primo utente abbia efettuato un tentativo di modifica.
+concorrenza pessimistica:implica il blocco di righe nell'origine dati per impedire agli altri utenti di apportare modifiche ai dati che possano influire sugli utenti correnti
