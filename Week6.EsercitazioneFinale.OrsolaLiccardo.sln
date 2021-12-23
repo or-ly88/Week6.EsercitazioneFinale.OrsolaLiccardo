@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week6.EsercitazioneFinale.OrsolaLiccardo", "Week6.EsercitazioneFinale.OrsolaLiccardo\Week6.EsercitazioneFinale.OrsolaLiccardo.csproj", "{76C15206-5D57-4C23-8634-F927C656BCD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7151CBA3-55D1-42A9-9B77-716D56587014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoDisconnectedSupportLibrary", "AdoDisconnectedSupportLibrary\AdoDisconnectedSupportLibrary.csproj", "{3BA1C7F2-085E-4FC6-BCAA-6FC5F0A91F84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76C15206-5D57-4C23-8634-F927C656BCD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C15206-5D57-4C23-8634-F927C656BCD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C15206-5D57-4C23-8634-F927C656BCD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C15206-5D57-4C23-8634-F927C656BCD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BA1C7F2-085E-4FC6-BCAA-6FC5F0A91F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA1C7F2-085E-4FC6-BCAA-6FC5F0A91F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA1C7F2-085E-4FC6-BCAA-6FC5F0A91F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA1C7F2-085E-4FC6-BCAA-6FC5F0A91F84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C125DB5F-D019-4D88-A40C-1F7C6A5FE268}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+{
+  "ConnectionString": {
+    "GestioneSpesa": "Server=(localdb)\\mssqllocaldb;Database=GestioneSpesa;Trusted_Connection=True;\"\""
+  }
+
+}
